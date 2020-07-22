@@ -1,68 +1,53 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](readme-img/main.png)
 
-## Available Scripts
+<h1 style="font-size: 50px; color: #6C63FF">ToDos</h1>
 
-In the project directory, you can run:
+### Mộ todo app đơn giản, code với mục đích làm quen những khái niệm cơ bản trong React
 
-### `yarn start`
+# Live demo
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 👉 https://here.com
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<br>
+<br>
 
-### `yarn test`
+# Tính năng
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ❌ ➕
 
-### `yarn build`
+- Thêm chủ đề (mỗi chủ đề có một hoặc nhiều công việc cần hoàn thành)
+- Xóa chủ đề
+- Thêm công việc
+- Sửa tiêu đề công việc
+- Đánh giấu công việc đã hoàn thành
+- Xóa công việc khỏi chủ đê
+  <br>
+  <br>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Công nghệ
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+![](readme-img/react.png)
+![](readme-img/html5.png)
+<img src="readme-img/css3.png" style="width: 30px;" />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React
+- HTML/CSS
+  <br>
+  <br>
 
-### `yarn eject`
+# Hướng dẫn
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Chương trình cho phép tạo nhiều chủ đề, mỗi chủ đề lại gồm nhiều công việc. Cách hoạt động rất đơn giản, chỉ cần nhập dữ liệu vào ô input và click các nút
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![](readme-img/demotodo.gif)
+<br>
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# ⚠️⚠️⚠️
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Chương trình dùng localStorage API để lưu dữ liệu nên nếu không chủ động xóa thì dữ liệu vẫn còn kể cả khi tắt trình duyệt. Bạn hãy cứ thử bookmark trang và dùng để lưu công việc cần làm, cảm ơn nhiều 😅😅
+<br>
+<br>
+<br>
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<p style="text-align: center">Made with 🧡 and ☕</p>
