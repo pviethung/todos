@@ -1,11 +1,10 @@
 ![](readme-img/main.png)
 
 # TODOS
-
-<br>
-<br>
-
 ### Mộ todo app đơn giản, code với mục đích làm quen những khái niệm cơ bản trong React
+
+<br>
+<br>
 
 # Live demo
 
