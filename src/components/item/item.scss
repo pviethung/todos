@@ -1,0 +1,121 @@
+.item {
+  position: relative;
+  margin-top: 20px;
+  & > * {
+    border: 0;
+    outline: none;
+  }
+  &__show,
+  &__edit-field {
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 10px 50px;
+    border: 1px solid #3f3d56;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+  }
+
+  &__show {
+    cursor: pointer;
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      width: 50%;
+      height: 1px;
+      background: #707070;
+      top: 50%;
+      display: none;
+    }
+  }
+
+  &__delete-btn {
+    &::after {
+      content: '\2212';
+      font-size: 30px;
+      line-height: 30px;
+      color: #fff;
+    }
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ff6584;
+    display: none;
+  }
+
+  &__check-btn {
+    &::after {
+      content: '';
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      display: none;
+      background: #6c63ff;
+    }
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #6c63ff;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  &:hover &__delete-btn {
+    display: block;
+  }
+
+  .checkbox {
+    display: none;
+  }
+
+  .checkbox:checked + label::after {
+    display: inline-block;
+  }
+
+  &__edit-field {
+    display: none;
+  }
+
+  &.edit &__show {
+    display: none;
+  }
+
+  &.edit &__delete-btn,
+  &.edit &__check-btn {
+    display: none;
+  }
+
+  &.edit &__edit-field {
+    display: block;
+  }
+
+  &.hide &__show {
+    font-style: italic;
+    font-weight: lighter;
+    color: #a59a9a;
+
+    &::after {
+      display: block;
+    }
+  }
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #3f3d56;
+}

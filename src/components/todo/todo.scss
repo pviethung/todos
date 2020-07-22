@@ -1,0 +1,27 @@
+.todo {
+  padding: 30px;
+  border: 1px solid #707070;
+  border-radius: 10px;
+
+  &__item {
+    .item__show {
+      text-align: left !important;
+    }
+  }
+
+  &__input-field {
+    margin-bottom: 40px;
+    width: 400px;
+  }
+
+  &__input-field input {
+    border: 0;
+  }
+
+  &__date {
+    font-size: 14px;
+    color: #a59a9a;
+    display: inline-block;
+    margin: 3px 0 0 50px;
+  }
+}

@@ -1,0 +1,23 @@
+.header {
+  margin-bottom: 30px;
+
+  &::after {
+    content: '';
+    width: 90%;
+    height: 1px;
+    display: block;
+    margin: 0 auto;
+    background: #a59a9a;
+  }
+}
+.heading {
+  text-align: center;
+  font-size: 40px;
+  color: #6c63ff;
+  margin: 0 auto;
+}
+
+.sub-heading {
+  text-align: center;
+  margin: 0 auto 20px;
+}
