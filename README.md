@@ -2,6 +2,9 @@
 
 # TODOS
 
+<br>
+<br>
+
 ### Mộ todo app đơn giản, code với mục đích làm quen những khái niệm cơ bản trong React
 
 # Live demo
@@ -37,7 +40,7 @@
 
 # Hướng dẫn
 
-Chương trình cho phép tạo nhiều chủ đề, mỗi chủ đề lại gồm nhiều công việc. Cách hoạt động rất đơn giản, chỉ cần nhập dữ liệu vào ô input và click các nút
+Chương trình cho phép tạo nhiều chủ đề, mỗi chủ đề lại gồm nhiều công việc. Cách hoạt động rất đơn giản, chỉ cần nhập dữ liệu vào ô input và click các nút 😅
 
 ![](readme-img/demotodo.gif)
 <br>
@@ -45,7 +48,7 @@ Chương trình cho phép tạo nhiều chủ đề, mỗi chủ đề lại g�
 
 # ⚠️⚠️⚠️
 
-Chương trình dùng localStorage API để lưu dữ liệu nên nếu không chủ động xóa thì dữ liệu vẫn còn kể cả khi tắt trình duyệt. Bạn hãy cứ thử bookmark trang và dùng để lưu công việc cần làm, cảm ơn nhiều 😅😅
+Chương trình dùng localStorage API để lưu dữ liệu nên nếu không chủ động xóa thì dữ liệu vẫn còn kể cả khi tắt trình duyệt. Bạn hãy cứ thử bookmark trang và dùng để lưu công việc cần làm, cảm ơn nhiều 😅
 <br>
 <br>
 <br>
