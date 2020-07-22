@@ -1,7 +1,8 @@
 ![](readme-img/main.png)
 
+```html
 <h1 style="font-size: 50px; color: #6C63FF">ToDos</h1>
-
+```
 ### Mộ todo app đơn giản, code với mục đích làm quen những khái niệm cơ bản trong React
 
 # Live demo
