@@ -1,8 +1,7 @@
 ![](readme-img/main.png)
 
-```html
-<h1 style="font-size: 50px; color: #6C63FF">ToDos</h1>
-```
+# TODOS
+
 ### Mộ todo app đơn giản, code với mục đích làm quen những khái niệm cơ bản trong React
 
 # Live demo
@@ -51,4 +50,4 @@ Chương trình dùng localStorage API để lưu dữ liệu nên nếu không 
 <br>
 <br>
 
-<p style="text-align: center">Made with 🧡 and ☕</p>
+Made with 🧡 and ☕
