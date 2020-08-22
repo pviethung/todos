@@ -12,7 +12,7 @@ const InputField = ({ input, handleChange, handleClick, handleKeyDown }) => {
         onKeyDown={handleKeyDown}
         type='text'
         className='input__field'
-        placeholder='New item ...'
+        placeholder='New label ...'
       />
       <button onClick={handleClick} className='input__btn'></button>
     </div>
